@@ -10,7 +10,8 @@ Answers for question 4:
 
 references: (1) https://www.statisticshowto.com/random-seed-definition/, (2) https://towardsdatascience.com/how-to-use-random-seeds-effectively-54a4cd855a79?gi=c3cc03832340#:~:text=A%20random%20seed%20is%20used,data%20science%20and%20other%20fields
 
-- 
+- The updated code has been put in this reprositry, in the question-4-code folder as "random_walk.R"
+
 Answers for question 5:
 
 ## Instructions
