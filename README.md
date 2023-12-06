@@ -12,6 +12,8 @@ references: (1) https://www.statisticshowto.com/random-seed-definition/, (2) htt
 
 - The updated code has been put in this reprositry, in the question-4-code folder as "random_walk.R"
 
+- A screenshot of the edits made in the code via the commit history has been put in the same question-4-code folder, as well as comments made in the history section.
+
 Answers for question 5:
 
 ## Instructions
