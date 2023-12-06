@@ -1,10 +1,16 @@
 # Reproducible research: version control and R
 
-Answers for question 1 to 3: 
+Answers for question 1 to 3 in the README.md file in the repositry: 
 https://github.com/codybamba/logistic_growth
 
 Answers for question 4:
+- In the plots generated, each line shows a trajectory of the random walk in a two dimensional space. The colour gradient shows the progression of time, as the darker the line becomes, showing earlier times. The x and y axis are coordinates that spatially show where the walking is being simulated. The left plot is showing a walk that starts at (0,0) and then generally moves to the left, towards negative X. The right plot starts at (0,0) too but moves towards the right, towards a positive X. There is quite alot of spread along the y-axis in both, showing quite a high variance. 
 
+- A random seed is a number used to initialise a random number generator. A random seed gives the starting point when a computer generates a sequence of random numbers (1). This makes sure that the results are reproducible, so that anyone that reruns the same code with the same seed will obtain the same sequence of output (2).
+
+references: (1) https://www.statisticshowto.com/random-seed-definition/, (2) https://towardsdatascience.com/how-to-use-random-seeds-effectively-54a4cd855a79?gi=c3cc03832340#:~:text=A%20random%20seed%20is%20used,data%20science%20and%20other%20fields
+
+- 
 Answers for question 5:
 
 ## Instructions
