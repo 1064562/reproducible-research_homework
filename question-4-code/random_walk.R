@@ -1,5 +1,5 @@
-#install.packages("ggplot2")
-#install.packages("gridExtra")
+install.packages("ggplot2")
+install.packages("gridExtra")
 
 library(ggplot2)
 library(gridExtra)
@@ -28,6 +28,7 @@ random_walk  <- function (n_steps) {
   
 }
 
+set.seed(69)
 data1 <- random_walk(500)
 
 plot1 <- ggplot(aes(x = x, y = y), data = data1) +
@@ -40,6 +41,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
+set.seed(110)
 data2 <- random_walk(500)
 
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
