@@ -4,25 +4,28 @@ Answers for question 1 to 3 in the README.md file in the repositry:
 https://github.com/codybamba/logistic_growth
 
 Answers for question 4:
-- In the plots generated, each line shows a trajectory of the random walk in a two dimensional space. The colour gradient shows the progression of time, as the darker the line becomes, showing earlier times. The x and y axis are coordinates that spatially show where the walking is being simulated. The left plot is showing a walk that starts at (0,0) and then generally moves to the left, towards negative X. The right plot starts at (0,0) too but moves towards the right, towards a positive X. There is quite alot of spread along the y-axis in both, showing quite a high variance. 
+- PART 1: In the plots generated, each line shows a trajectory of the random walk in a two dimensional space. The colour gradient shows the progression of time, as the darker the line becomes, showing earlier times. The x and y axis are coordinates that spatially show where the walking is being simulated. The left plot is showing a walk that starts at (0,0) and then generally moves to the left, towards negative X. The right plot starts at (0,0) too but moves towards the right, towards a positive X. There is quite alot of spread along the y-axis in both, showing quite a high variance. 
 
-- A random seed is a number used to initialise a random number generator. A random seed gives the starting point when a computer generates a sequence of random numbers (1). This makes sure that the results are reproducible, so that anyone that reruns the same code with the same seed will obtain the same sequence of output (2).
+- PART 2: A random seed is a number used to initialise a random number generator. A random seed gives the starting point when a computer generates a sequence of random numbers (1). This makes sure that the results are reproducible, so that anyone that reruns the same code with the same seed will obtain the same sequence of output (2).
 
 references: (1) https://www.statisticshowto.com/random-seed-definition/, (2) https://towardsdatascience.com/how-to-use-random-seeds-effectively-54a4cd855a79?gi=c3cc03832340#:~:text=A%20random%20seed%20is%20used,data%20science%20and%20other%20fields
 
-- The updated code has been put in this reprositry, in the question-4-code folder as "random_walk.R"
+- PART 3: The updated code has been put in this reprositry, in the question-4-code folder as "random_walk.R"
 
-- A screenshot of the edits made in the code via the commit history has been put in the same question-4-code folder, as well as comments made in the history section.
+- PART 4: A screenshot of the edits made in the code via the commit history has been put in the same question-4-code folder, as well as comments made in the history section.
 
 Answers for question 5:
 
-- There are 13 columns, and 33 rows in this dataset. 
+- PART 1: There are 13 columns, and 33 rows in this dataset. 
 
-- We can do the natural log transformation to fit a linear model to the data.
+- PART 2: We can do the natural log transformation to fit a linear model to the data, this has been done in PART 1 of the Question5.R code.
 
-- Using the code in "Question5.R", the exponent (alpha) I obtained was 1.515228 and the scaling factor (beta) was 1181.807. The p-values of both the intercept (scaling factor, which was p = 2.279645e-10) and the slope (alpha, which was p = 6.438498e-10) in the linear model summary met the p<0.05 requirement for both the results to be significantly different. Therefore, we can conclude that these results have a very low chance of being due to random chance. In the paper by Cui, Schlub and Holmes in the Journal of Virology (doi: https://doi.org/10.1128/jvi.00362-14) in Table 2, the dsDNA data for exponent is 1.52 (1.16–1.87) which is almost identical to my results. The dsDNA data for the scaling factor is also nearly identical to mine with the Table showing a scaling factor of 1,182 (246–5,675).
+- PART 3: Using the code in PART 1 of "Question5.R", the exponent (alpha) I obtained was 1.515228 and the scaling factor (beta) was 1181.807. The p-values of both the intercept (scaling factor, which was p = 2.279645e-10) and the slope (alpha, which was p = 6.438498e-10) in the linear model summary met the p<0.05 requirement for both the results to be significantly different. Therefore, we can conclude that these results have a very low chance of being due to random chance. In the paper by Cui, Schlub and Holmes in the Journal of Virology (doi: https://doi.org/10.1128/jvi.00362-14) in Table 2, the dsDNA data for exponent is 1.52 (1.16–1.87) which is almost identical to my results. The dsDNA data for the scaling factor is also nearly identical to mine with the Table showing a scaling factor of 1,182 (246–5,675).
 
-- 
+- PART 4: The figure has been reproduced in the Question5.R, PART 2 code.
+
+- PART 5: The code for this is found in PART 3 of the Question5.R file. The estimated volume of a 300kb dsDNA virus is 6698076nm^3, using estimated alpha and beta values in the formula (V = B*L^a).
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
