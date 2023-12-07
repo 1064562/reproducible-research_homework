@@ -1,7 +1,7 @@
 # Reproducible research: version control and R
 
 Answers for question 1 to 3 in the README.md file in the repositry: 
-https://github.com/codybamba/logistic_growth
+https://github.com/1064562/logistic_growth
 
 Answers for question 4:
 - PART 1: In the plots generated, each line shows a trajectory of the random walk in a two dimensional space. The colour gradient shows the progression of time, as the darker the line becomes, showing earlier times. The x and y axis are coordinates that spatially show where the walking is being simulated. The left plot is showing a walk that starts at (0,0) and then generally moves to the left, towards negative X. The right plot starts at (0,0) too but moves towards the right, towards a positive X. There is quite alot of spread along the y-axis in both, showing quite a high variance. 
