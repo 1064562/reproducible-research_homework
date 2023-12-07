@@ -24,7 +24,7 @@ Answers for question 5:
 
 - PART 1: There are 13 columns, and 33 rows in this dataset. 
 
-- PART 2: We can do the natural log transformation to fit a linear model to the data, this has been done in PART 1 of the Question5.R code.
+- PART 2: We can do the log transformation to fit a linear model to the data, this has been done in PART 1 of the Question5.R code.
 
 - PART 3: Using the code in PART 1 of "Question5.R", the exponent (alpha) I obtained was 1.515228 and the scaling factor (beta) was 1181.807. The p-values of both the intercept (scaling factor, which was p = 2.279645e-10) and the slope (alpha, which was p = 6.438498e-10) in the linear model summary met the p<0.05 requirement for both the results to be significantly different. Therefore, we can conclude that these results have a very low chance of being due to random chance. In the paper by Cui, Schlub and Holmes in the Journal of Virology (doi: https://doi.org/10.1128/jvi.00362-14) in Table 2, the dsDNA data for exponent is 1.52 (1.16–1.87) which is almost identical to my results. The dsDNA data for the scaling factor is also nearly identical to mine with the Table showing a scaling factor of 1,182 (246–5,675).
 
