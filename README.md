@@ -8,9 +8,13 @@ Answers for question 4:
 
 - PART 2: A random seed is a number used to initialise a random number generator. A random seed gives the starting point when a computer generates a sequence of random numbers (1). This makes sure that the results are reproducible, so that anyone that reruns the same code with the same seed will obtain the same sequence of output (2).
 
-references: (1) https://www.statisticshowto.com/random-seed-definition/, (2) https://towardsdatascience.com/how-to-use-random-seeds-effectively-54a4cd855a79?gi=c3cc03832340#:~:text=A%20random%20seed%20is%20used,data%20science%20and%20other%20fields
+references: 
 
-- PART 3: The updated code has been put in this reprositry, in the question-4-code folder as "random_walk.R"
+(1) Stephanie (2017). Random Seed: Definition. [online] Statistics How To. Available at: https://www.statisticshowto.com/random-seed-definition/.
+
+‌(2) Bansal, J. (2020). How to Use Random Seeds Effectively. [online] Medium. Available at: https://towardsdatascience.com/how-to-use-random-seeds-effectively-54a4cd855a79?gi=c3cc03832340#:~:text=A%20random%20seed%20is%20used [Accessed 7 Dec. 2023].
+
+- PART 3: The updated code has been put in this repositry, in the question-4-code folder as "random_walk.R"
 
 - PART 4: A screenshot of the edits made in the code via the commit history has been put in the same question-4-code folder, as well as comments made in the history section.
 
