@@ -26,6 +26,8 @@ Answers for question 5:
 
 - PART 5: The code for this is found in PART 3 of the Question5.R file. The estimated volume of a 300kb dsDNA virus is 6698076nm^3, using estimated alpha and beta values in the formula (V = B*L^a).
 
+- BONUS: Reproductibility means to get consistent or reproducing the same results when using the same data and method. Replicability is getting the same result again, with using the same method but using new data than before. Git and GitHub can be used to enhance reproducibility and replicability. They allow for version control of scripts that allows to track and maintain a snapshot of the development of a project. This is important because this allows for collaboration and splitting of tasks between collegues online in a way that reduces any error a project. But the limitations of git and Github can include potential security breaches / risks. Because Github is cloud based, data is stored on a server and the user does not have alot of control over how secure the data is held on the server. If Github's servers are hacked, then projects could be at risk with no fault of the user. In addition, since Github is ran on a server, it can be very slow especially when handling big file projects and there is no way for the user to improve this speed compared to handling projects on their own computer or server.
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
