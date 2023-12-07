@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 # PART 1: 
-dsDNA_data <- read.csv("question-5-data//Cui_etal2014.csv")
+dsDNA_data <- read.csv("Cui_etal2014.csv")
 dsDNA_data
 
 # Do natural log of both virion volume and genome length
