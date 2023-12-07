@@ -17,6 +17,7 @@ references:
 - PART 3: The updated code has been put in this repositry, in the question-4-code folder as "random_walk.R"
 
 - PART 4: A screenshot of the edits made in the code via the commit history has been put in the same question-4-code folder, as well as comments made in the history section.
+[](code-change-q4.png)
 
 Answers for question 5:
 
