@@ -37,5 +37,5 @@ ggplot(dsDNA_data, aes(x = log_Genome.length..kb., y = log_Virion.volume)) +
   theme_minimal()
 
 # PART 3, estimate volume of 300kb dsDNA virus, using V = B*L^a:
-est_vol <- (beta * (300^alpha))
+est_vol <- (beta * 300)^alpha
 est_vol
